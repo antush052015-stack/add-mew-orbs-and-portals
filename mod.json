@@ -1,0 +1,43 @@
+{
+	"geode": "4.6.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yourname.newmodes",
+	"name": "New Modes",
+	"version": "v1.0.0",
+	"developer": "YourName",
+	"description": "Новый режим управления стрелками (вверх + влево/вправо) и каркас для новых орбов и падов.",
+	"settings": {
+		"enabled-on-start": {
+			"type": "bool",
+			"name": "Включать режим сразу",
+			"description": "Режим стрелок активен с начала уровня. Переключение на лету: F6.",
+			"default": false
+		},
+		"climb-speed": {
+			"type": "float",
+			"name": "Скорость подъёма",
+			"default": 9.0,
+			"min": 1.0,
+			"max": 20.0
+		},
+		"fall-speed": {
+			"type": "float",
+			"name": "Скорость падения",
+			"default": 6.0,
+			"min": 1.0,
+			"max": 20.0
+		},
+		"side-speed": {
+			"type": "float",
+			"name": "Скорость влево/вправо",
+			"default": 280.0,
+			"min": 50.0,
+			"max": 800.0
+		}
+	}
+}
